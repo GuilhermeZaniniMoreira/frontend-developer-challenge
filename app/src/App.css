@@ -1,0 +1,176 @@
+.main-container {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  background-color: #707070;
+}
+
+.header .product-selection-msg {
+  padding-top: 70px;
+}
+
+.header .product-selection-msg h2 {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
+
+.header .product-selection-msg h1 {
+  color: white;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.header .product-selection-msg p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+.header .nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header .nav ul {
+  list-style: none;
+}
+
+.header .nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.header .nav ul li button {
+  height: 40px;
+  width: 160px;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+  color: #888888;
+}
+
+.products {
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.products h1 {
+  padding-top: 50px;
+  font-size: 18px;
+  color: #888888;
+}
+
+.products ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  margin-top: 50px;
+  text-align: left;
+  color: #888888;
+}
+
+button {
+  color: #888888;
+}
+
+.products ul li .product-name {
+  font-size: 16px;
+}
+
+.products ul li .product-description {
+  font-size: 12px;
+}
+
+.products ul li .product-oldPrice {
+  font-size: 12px;
+}
+
+.products ul li .product-price {
+  font-size: 16px;
+}
+
+.products ul li .product-installments {
+  font-size: 12px;
+}
+
+.products ul li .button {
+  border-radius: 4px;
+  background: white;
+  height: 30px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.products .add-more-products {
+  margin-top: 30px;
+  border-radius: 4px;
+  background: white;
+  height: 39px;
+  width: 260px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.newsletter h1 {
+  padding-top: 140px;
+  font-size: 22px;
+  color: #888888;
+}
+
+.newsletter h2 {
+  padding-top: 20px;
+  font-size: 14px;
+  color: #888888;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  text-align: left;
+}
+
+p {
+  display: block;
+  font-size: 12px;
+  color: #888888;
+}
+
+input {
+  width: 340px;
+  height: 30px;
+  margin-right: 40px;
+}
+
+.newsletter .subscribe-newsletter {
+  margin-top: 40px;
+  width: 260px;
+  height: 39px;
+  border-radius: 4px;
+  font-size: 16px;
+  background: white;
+}
+
+.linx {
+  margin-top: 100px;
+  height: 200px;
+  background: #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linx div p {
+  color: white;
+  font-size: 12px;
+}
