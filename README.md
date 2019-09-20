@@ -21,3 +21,6 @@ A atualização da lista de produtos é realizada no botão 'Ainda mais produtos
 Toda vez que esté valor é alterado a função useEffect será acionada, assim, alterando a lista de produtos.
 
 A validação de e-mail do newsletter é realziada através da dependência validator.
+
+HEROKU:
+https://cryptic-atoll-49324.herokuapp.com/
